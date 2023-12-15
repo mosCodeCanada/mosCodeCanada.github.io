@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1.5;
+    background-color: rgba(206, 204, 124, 0.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* -------------------------------home page ----------------------------------------------- */
+
+h2#toptitle {
+    font-size: 2vw;
+    text-align: center;
+}
+
+div#stmt {
+    width: 70%;
+    margin: auto;
+}
+
+div#stmt p {
+    text-align: left;
+    padding-left: 15vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+div#imgs {
+    width: 70%;
+    margin: auto;
+}
+
+.img-div {
+    display: inline-block;
+    width: 49%;
+}
+
+
+
+
+/* ----------------------------------- media queries ----------------------------------- */
+
+@media (max-width: 1030px) {
+    
+    h2#toptitle {
+        font-size: 2vw;
+        text-align: center;
+    }
+    
+    div#stmt {
+        width: 90%;
+        margin: auto;
+    }
+    
+    div#stmt p {
+        text-align: left;
+        font-size: 1.8vw;
+        font-weight: bold;
+        padding-left: 7vw;
+    }
+    
+    div#imgs {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .img-div {
+        display: block;
+        width: 100%;
+    }
+
+    .img-div img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
