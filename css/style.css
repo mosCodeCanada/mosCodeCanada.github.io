@@ -59,18 +59,18 @@ div#imgs {
 @media (max-width: 1030px) {
     
     h2#toptitle {
-        font-size: 2vw;
+        font-size: 2.6vw;
         text-align: center;
     }
     
     div#stmt {
-        width: 90%;
+        width: 94%;
         margin: auto;
     }
     
     div#stmt p {
         text-align: left;
-        font-size: 1.8vw;
+        font-size: 2.3vw;
         font-weight: bold;
         padding-left: 7vw;
     }
